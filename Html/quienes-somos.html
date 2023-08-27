@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/Css/style.css">
+
+    <title>Ramonesmania | Nosotros</title>
+
+    <!--LINK BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!--HEADER RESPONSIVE-->
+  <header>
+        <!--LOGO-->
+        <div class="logo">
+            <img src="/Imagenes/logo-ramones.png" alt="logo_pagina">
+              <h2 class="titulo-pagina">RAMONESMANIA</h2>
+        </div>
+
+        <!--NAVBAR BOOTSTRAP EDIT RESPONSIVE-->
+        <section>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Html/historia.html">Su historia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Html/discografia.html">Discografia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Html/galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Html/quienes-somos.html">Nosotros</a>
+                      </li>            
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </section>
+  </header>
+
+  <section class="section-nosotros">
+        <h1>¿QUIENES SOMOS?</h1>
+
+            <p class="texto_pagina">Somos una página de Argentina, dedicada a mantener viva la llama del punk, y dar a conocer a las
+            nuevas generaciones una banda tan importante como lo fueron <strong>The Ramones</strong> para nosotros.
+            Contanos de que parte del mundo nos visitas y escribe un comentario en nuestro
+            <strong>libro de visitas</strong>.</p>
+    
+    <!--SECTION BOOTSTRAP CARDS D-FLEX EDIT RESPONSIVE-->
+    <section class= "d-flex flex-row mb-3 justify-content-around m-5">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img src="/Imagenes/quienes-somos/argentina.jpeg" class="card-img-top" alt="Recital Ramones en Argentina">
+              <div class="card-body">
+                <p class="card-text">La multitud ramonera esperando fuera de las boleterias.
+              </div>
+          </div>
+        </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="/Imagenes/quienes-somos/mural-ramones.jpg" class="card-img-top" alt="Mural Ramones">
+            <div class="card-body">
+              <p class="card-text">Uno de tantos murales ramoneros que hay alrededor de la ciudad de Buenos Aires.</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="/Imagenes/quienes-somos/ramonos.jpg" class="card-img-top" alt="Ramonos">
+            <div class="card-body">
+              <p class="card-text">Ramonos, banda tributo a The Ramones, oriunda de Buenos Aires.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <p class="texto_pagina">We are a page from Argentina, dedicated to keeping the flame of punk alive, and to make known to 
+    the new generations a band as important as <strong>The Ramones</strong> were for us. Tell us from which part of the 
+    world you visit us and write a comment in our <strong>guestbook</strong>.</p>
+
+
+  </section>
+
+  <!--SECTION FORM FLEX-->
+  <section class="libro-visitas">
+    <h3>Libro de visitas</h3>
+            
+      <form action="form.php" method="post" class="formulario">
+        <label for="">Nombre</label>
+          <input type="text" name="nombre" id="Nombre" placeholder="Tu nombre aqui">
+
+        <label for="">Pais</label>
+          <input type="text" name="Pais" id="Pais" placeholder="De donde nos visitas">
+
+    <p>Dejanos un comentario</p>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+  </section>
+
+    <!--FOOTER-->
+    <footer class="section-footer">
+        <ul>
+            <li>Derechos de autor © 2023.</li>
+            <li>Web no oficial de "The Ramones".</li>
+            <li>Contáctanos en ramonesargentina@gmail.com</li>
+        </ul>
+    </footer>
+
+    <!--SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
