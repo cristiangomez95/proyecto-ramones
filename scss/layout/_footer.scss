@@ -1,0 +1,19 @@
+@import "../utilities/variables";
+
+footer{
+    //variable
+    color: $color-letra;
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column-reverse;
+    //gradiente
+    background-image: linear-gradient(to left, black, rgb(46, 46, 46));
+    border-top: solid 1px;
+    padding: 5px;
+    ul{
+        list-style-type: none;
+        
+    }
+}

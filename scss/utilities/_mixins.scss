@@ -1,0 +1,21 @@
+@mixin button-styles($bg-color, $text-color, $ancho, $time){
+
+    background-color: $bg-color;
+    color: $text-color;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: $ancho;
+    margin-top: 10px;
+    transition: $time;
+    cursor: pointer;
+    &:hover{
+        width: 125px;
+        background-color: darkmagenta;
+    }
+}
+
+.boton-uno{
+
+    @include button-styles(fuchsia, white, 120px, 1s)
+
+}

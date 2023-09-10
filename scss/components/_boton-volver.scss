@@ -1,0 +1,11 @@
+.boton-tres{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover{
+        //escalar elemento
+        transform: scale(1.2);
+    }
+}

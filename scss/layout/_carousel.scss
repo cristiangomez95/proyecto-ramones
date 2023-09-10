@@ -1,0 +1,19 @@
+@import "../utilities/variables";
+
+.section_img{
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    
+
+    h1{
+        text-align: center;
+        font-family: Arial;
+        font-size: 40px;
+        color: white;
+        //uso de variables
+        background-color: $fondo-web;
+        padding: 10px;
+    }
+}

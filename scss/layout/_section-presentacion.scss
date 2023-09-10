@@ -1,0 +1,43 @@
+@import "../utilities/variables";
+
+.section_presentacion{
+    display: flex;
+    flex-direction: column;
+    //variables
+    background-color: $fondo-web;
+    color: $color-letra;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    padding: 50px;
+
+    h1{
+        display: block;
+        text-align: center;
+        font-family: Arial;
+        font-size: 40px;
+        color: black;
+        padding: 10px;
+        //gradiente
+        background-image: linear-gradient(to left, fuchsia, white);
+    } 
+
+    .texto_index{
+        flex-direction: column;
+        color: fuchsia;
+        padding: 50px;
+
+    }
+
+    img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .boton-dos{
+        //transformar elemento
+        transform: translate(800px,-700px);
+
+    }
+
+}

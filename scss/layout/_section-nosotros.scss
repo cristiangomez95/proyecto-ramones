@@ -1,0 +1,48 @@
+@import "../utilities/variables";
+
+.section-nosotros{
+    display: flex;
+    flex-direction: column;
+    //variable
+    background-color: $fondo-web;
+    padding: 10px;
+    color: white;
+    
+    h1{
+        text-align: center;
+        font-family: Arial;
+        font-size: 40px;
+        color: white;
+        //variable
+        background-color: $fondo-web;
+        padding: 10px;
+    }
+
+    .texto_pagina{
+        //variable
+        background-color: $fondo-web;
+        color: fuchsia;
+        text-align: center;
+        font-family: arial;
+        font-size: 20px;
+    }
+    
+    section{
+        div{
+            div{
+                .card{
+                    padding: 10px;
+                    justify-content: space-around;
+                    img{
+                        
+                        div{
+                            .card-text{
+                                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

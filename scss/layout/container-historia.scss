@@ -1,0 +1,28 @@
+@import "../utilities/variables";
+
+.container-historia{
+    //variable
+    background-color: $fondo-web;
+    padding: 10px;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    color: white;
+    //variable
+    background-color: $fondo-web;
+    padding: 10px;
+}
+.parrafo-historia{
+    padding: 30px;
+    //variable
+    background-color: $fondo-web;
+    color: white;
+    border: solid fuchsia 1px;
+}
+.img-fluid{
+    width: 100%;
+    padding: 10px;
+}
