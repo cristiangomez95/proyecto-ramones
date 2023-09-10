@@ -8,8 +8,9 @@
     align-items: center;
     color: $color-letra;
     padding-bottom: 30px;
-    padding-left: 300px;
-    padding-right: 300px;
+    iframe{
+        width: 50%;
+    }
 
     h3{
         text-align: center;

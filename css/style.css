@@ -141,8 +141,9 @@ h1 {
   align-items: center;
   color: white;
   padding-bottom: 30px;
-  padding-left: 300px;
-  padding-right: 300px;
+}
+.videos-ramones iframe {
+  width: 50%;
 }
 .videos-ramones h3 {
   text-align: center;
